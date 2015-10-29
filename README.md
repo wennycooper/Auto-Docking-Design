@@ -11,6 +11,8 @@
  * Two IR receivers 
 
 # BASIC OPERATIONS
+![](https://docs.google.com/drawings/d/10qjkzlVpxTzHJOy8nBXIwdnfUWQLuOGBx5gQOHoDPro/pub?w=955&h=878)
+
 * We will use ROS navigation to command Robot to be 1 or 2 meter in front or the docking station. The Robot's back will be facing to the docking station.
  * ROS navigation can cause around 30cm position errors
 * Then, two IR receivers will receive IR signals.
