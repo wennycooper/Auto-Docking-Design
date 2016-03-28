@@ -24,7 +24,7 @@
 * Until the microSW on.
 
 # Demo video
-* 
+* https://www.youtube.com/watch?v=8TJdYG-1yr4
 
 # ISSUES
 * n/a
