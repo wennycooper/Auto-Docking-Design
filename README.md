@@ -23,7 +23,10 @@
 * Then, ANDBOT will start to do PID control to move to the docking station and keep the two IR receiver reading balanced.
 * Until the microSW on.
 
+# Demo video
+* 
+
 # ISSUES
-* We didn't found proper IR emitter and IR receivers. Keep looking at it. 
+* n/a
 
 
