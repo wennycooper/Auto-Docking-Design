@@ -26,10 +26,14 @@
  * ROS navigation can cause around 0.2m position errors and 0.3rad orientation errors. 
 * Then, ANDBOT should rotate in-place until any of following conditions:
  * The R0 or R1 got signals which is greater than the pre-defined threshold. It means the robot is in the zone Z1.
- * The R2 got signals from E2, then the ANDBOT should move ahead until it lost the E2 signal
-  * Then, it should rotate in-place until the R0 or R1 got signals which is greater than the pre-defined threshold. It means the robot is in the zone Z1.
- * The R3 got signals from E3, then the ANDBOT should move ahead until it lost the E3 signal 
-  * Then, it should rotate in-place until the R0 or R1 got signals which is greater than the pre-defined threshold. It means the robot is in the zone Z1. 
+ * The R2 got signals from E2, which means it is in the zone Z2.
+  * Then, the ANDBOT should move ahead until it lost the E2 signal
+  * Then, it should rotate in-place until the R0 or R1 got signals which is greater than the pre-defined threshold. 
+  * Now it should be in the zone Z1.
+ * The R3 got signals from E3, which means it is in the zone Z3.
+  * Then, the ANDBOT should move ahead until it lost the E3 signal 
+  * Then, it should rotate in-place until the R0 or R1 got signals which is greater than the pre-defined threshold. 
+  * Now it should be in the zone Z1. 
 * Then, ANDBOT should start to do orientation PID control to move toward the docking station and keep the R0 & R1 readings balanced.
 * Until the microSW on.
 
