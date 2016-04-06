@@ -12,7 +12,8 @@
 * On docking station
  * Three IR emitters 
 * On ANDBOT
- * Four IR receivers 
+ * Two IR receivers for Z1
+ * Two IR receivers for Z2 and Z3.(這兩顆IR receivers 需要安裝地比較深入, 指向能力才會比較高)
  * microSW
 
 # BASIC OPERATIONS
