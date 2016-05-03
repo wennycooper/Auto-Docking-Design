@@ -10,7 +10,7 @@
 
 # COMPONENTS
 * On docking station
- * One IR emitter (ASE-1L7)
+ * One IR emitter (ASE-1L7), radiant angle = 30 degree 
 * On ANDBOT
  * Two IR receiver modules (KSM-963-LM4M), separated by a barrier
  * LimitSW
@@ -37,6 +37,10 @@
  * If neither R0 nor R1 got RC5(0x43) code for a period of time, it should be treat as "lost docking station", and it should go back to the previous stop. 
 * Until the sensor limitSW is contact to the docking station. Then stop the base.
 
+## Regarding to the landing point
+* emitter angle = 30 degree
+* landing point is 1.5 in front of the docking station
+* the width of the zone is 1.5m * sin(15) * 2 = 0.775m, which is okay compared to the navigation errors.
 
 # ISSUES
 * n/a
