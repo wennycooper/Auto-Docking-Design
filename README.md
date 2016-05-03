@@ -35,7 +35,7 @@
  * If only R1 got RC5(0x43) code, the robot should rotate in CW.
  * If both R0 and R1 got RC5(0x43) code, the robot should move forward.
  * If neither R0 nor R1 got RC5(0x43) code for a period of time, it should be treat as "lost docking station", and it should go back to the previous stop. 
-* Until the touch sensor limitSW is contact to the docking station. Then stop the base.
+* Until the sensor limitSW is contact to the docking station. Then stop the base.
 
 
 # ISSUES
