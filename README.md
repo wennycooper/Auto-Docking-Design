@@ -10,9 +10,9 @@
 
 # COMPONENTS
 * On docking station
- * One IR emitter 
+ * One IR emitter (ASE-1L7)
 * On ANDBOT
- * Two IR receivers, separated by a barrier
+ * Two IR receiver modules (KSM-963-LM4M), separated by a barrier
  * LimitSW
 
 # BASIC OPERATIONS
