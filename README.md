@@ -42,6 +42,16 @@
 * landing point is 1.5 in front of the docking station
 * the width of the zone is 1.5m * sin(15) * 2 = 0.775m, which is okay compared to the navigation errors.
 
+
+# IMPLEMENTATIONS
+
+* Design document
+https://github.com/wennycooper/Auto-Docking-Design.git
+* Receiver code on Arduino
+https://github.com/wennycooper/IR_receiver_rosserial_ircode.git
+* Receiver code on ROS
+https://github.com/wennycooper/mybot_autodocking/blob/master/src/mybot_autodocking_irCode.cpp
+
 # ISSUES
 * n/a
 
