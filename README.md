@@ -46,11 +46,11 @@
 # IMPLEMENTATIONS
 
 * Design document
-https://github.com/wennycooper/Auto-Docking-Design.git
+ * https://github.com/wennycooper/Auto-Docking-Design.git
 * Receiver code on Arduino
-https://github.com/wennycooper/IR_receiver_rosserial_ircode.git
+ * https://github.com/wennycooper/IR_receiver_rosserial_ircode.git
 * Receiver code on ROS
-https://github.com/wennycooper/mybot_autodocking/blob/master/src/mybot_autodocking_irCode.cpp
+ * https://github.com/wennycooper/mybot_autodocking/blob/master/src/mybot_autodocking_irCode.cpp
 
 # ISSUES
 * n/a
