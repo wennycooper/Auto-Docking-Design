@@ -10,10 +10,20 @@
 
 # COMPONENTS
 * On docking station
- * One IR emitter (ASE-1L7), radiant angle = 30 degree 
+ * One IR emitter (ASE-1L7), radiant angle = 30 degree
+ * Arduino UNO
 * On ANDBOT
  * Two IR receiver modules (KSM-963-LM4M), separated by a barrier
  * LimitSW
+ * Arduino UNO
+
+# WIRING
+* On docking station
+ * ![](https://github.com/wennycooper/Auto-Docking-Design/blob/master/onDockingStation.png)
+
+* On ANDBOT 
+ * ![](https://github.com/wennycooper/Auto-Docking-Design/blob/master/onRobot.png)
+
 
 # BASIC OPERATIONS
 ## Architecture
@@ -39,8 +49,8 @@
 
 ## Regarding to the landing point
 * emitter angle = 30 degree
-* landing point is 1.5 in front of the docking station
-* the width of the zone is 1.5m * sin(15) * 2 = 0.775m, which is okay compared to the navigation errors.
+* landing point is 1.5m in front of the docking station
+* the width of the zone is about 1.5m * sin(15) * 2 = 0.775m, which is okay compared to the navigation errors.
 
 
 # IMPLEMENTATIONS
